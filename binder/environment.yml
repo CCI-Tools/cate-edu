@@ -2,10 +2,10 @@ channels:
   - conda-forge
 dependencies:
   - python
+  - pip:
+    - git+https://github.com/CCI-Tools/cate.git@v2.1.5
   - numpy
   - matplotlib
   - cartopy
   - geopandas
   - xarray
-  - pip:
-     - git+https@github.com:CCI-Tools/cate.git@v2.1.5
