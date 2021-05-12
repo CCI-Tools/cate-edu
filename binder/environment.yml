@@ -8,4 +8,4 @@ dependencies:
   - geopandas
   - xarray
   - pip:
-     - git@github.com:CCI-Tools/cate.git@v2.1.5
+     - git+https@github.com:CCI-Tools/cate.git@v2.1.5
