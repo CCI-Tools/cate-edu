@@ -1,0 +1,11 @@
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - numpy
+  - matplotlib
+  - cartopy
+  - geopandas
+  - xarray
+  - ccitools
+  - cate-cli
