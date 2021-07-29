@@ -5,7 +5,7 @@ dependencies:
   - pip:
     - git+https://github.com/CCI-Tools/cate.git@v3.0.0.dev7
     - git+https://github.com/dcs4cop/xcube.git@v0.8.2.dev0
-    - git+https://github.com/dcs4cop/xcube-cci.git@v0.8.1.dev4
+    - git+https://github.com/dcs4cop/xcube-cci.git@v0.8.1.dev5
   - affine>=2.2
   - aiofiles>=0.4
   - aiohttp>=3.6
