@@ -3,10 +3,7 @@ channels:
 dependencies:
   - python
   - pip:
-    - git+https://github.com/CCI-Tools/cate.git@v3.0.0.dev7
-    - git+https://github.com/dcs4cop/xcube.git@v0.8.2.dev0
-    - git+https://github.com/dcs4cop/xcube-cci.git@v0.8.1.dev6
-  - affine>=2.2
+    - git+https://github.com/CCI-Tools/cate.git@v3.0.1.dev1
   - aiofiles>=0.4
   - aiohttp>=3.6
   - bokeh>=1.3
@@ -14,13 +11,10 @@ dependencies:
   - botocore>=1.17
   - cartopy>=0.18
   - cftime>=1.4.1
-  - click>=7.0
-  - cmocean>=2.0
   - conda>=4.8
   - cython>=0.29.2
   - dask>=2021.6
   - fiona>=1.8.6
-  - gdal>=3.0
   - geopandas>=0.8
   - geos>=3.7.1
   - geotiff>=1.4.2
@@ -29,44 +23,31 @@ dependencies:
   - hdf4>=4.2.13
   - hdf5>=1.10.4
   - jdcal>=1.4.1
-  - jsonschema>=3.2.0
   - lxml>=4.5
   - matplotlib-base>=3.3
   - numba>=0.52
   - numpy>=1.18.1
-  - nest-asyncio >= 1.3
   - netcdf4>=1.5.1.2
   - owslib>=0.19.1
-  - pandas>=1.2
+  - pandas>=1.3
   - pillow>=7.0.0
   - pip
   - psutil>=5.7.0
-  - pydap >= 3.2
   - pyepsg>=0.4.0
-  - pyjwt>=1.7
   - pyproj>=3.0
   - pyshp>=2.1.0
-  # We require Python 3.7 as tornado 6.0.3 doesn't work with Python 3.8
-  - python=3.7
+  - python>=3.8
   - python-dateutil>=2.8.1
-  - pyyaml>=5.4
-  - rasterio>=1.2
-  - requests>=2.25
   - requests-file>=1.5
-  - requests-oauthlib>=1.3
-  - s3fs>=2021.6
+  # needed because of fix https://s3fs.readthedocs.io/en/latest/changelog.html#id5
+  - s3fs>=2021.08.0
   - s3transfer>=0.3.3
   - scipy>=1.6.0
   - setuptools>=41.0
   - shapely>=1.6.4
-  - strict-rfc3339 >=0.7
   - tornado>=6.0
-  - urllib3>=1.26
-  - xarray>=0.18.2
+  - xarray>=0.19.0
+  - xcube>=0.9.1
+  - xcube-cci>=0.9.0
   - yaml>=0.2.2
   - zarr>=2.6.1
-  # Test libs
-  - flake8
-  - moto
-  - pytest
-  - pytest-cov
